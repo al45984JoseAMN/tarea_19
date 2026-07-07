@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 19 (Posicionamiento y Flexbox)</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .c1, .c2, .c3, .c4 {
+            background-color: #f9f9f9;
+            border: 1px solid #cccccca4;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 0;
+            max-width: 800px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .c1 img, .c2 img, .c3 img, .c4 img{
+            width: 35%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+        h1{
+            text-align: center;
+            font-size: 2.5em;
+            color: #333;
+        }
+        h3{
+            text-align: center;
+            font-size: 1.5em;
+            color: #090000;
+        }
+       .container-p{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 0 20px;
+       }
+       .p1, .p2{
+        width: 45%;
+       }
+    </style>
+</head>
+<body>
+    <h1>Música experimental y no experimental</h1>
+    <div class="container">
+    <div class="container c1">
+    <p>ƪ. ◖ƪ❍⊁◞._◗щ (_ㅇ△₊⁎❝᷀ົཽ_ೃ_(꒡͡ ❝᷀ົཽ ꉺ¨.·__･✧⃛(ཽ๑</p>
+    <img src="imagenes/windings_25.jpg" alt="Imagen 1">
+        <audio controls>
+            <source src="musica/SpotiDownloader.com - ƪ. ◖ƪ❍⊁◞._◗щ (_ㅇ△₊⁎❝᷀ົཽ_ೃ_(꒡͡ ❝᷀ົཽ ꉺ¨.·__･✧⃛(ཽ๑ - ⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ.mp3" type="audio/mp3">
+         Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="container c2">
+    <p> ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉</p>
+    <img src="imagenes/windings1.jpg" alt="Imagen 2">
+        <audio controls>
+            <source src="musica/SpotiDownloader.com - ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ ̸ ̡ ҉ ҉.·๑ඕั ҉ - ⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ.mp3" type="audio/mp3">
+         Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="container c3">
+    <p>Tr.14 (blank)</p>
+    <img src="imagenes/sudden_shower.jpg" alt="Imagen 3">
+        <audio controls>
+            <source src="musica/SpotiDownloader.com - Tr.14 (blank) - Camellia.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <div class="container c4">
+    <p>Butterflies</p>
+    <img src="imagenes/QFF.jpg" alt="Imagen 4">
+        <audio controls>
+            <source src="musica/SpotiDownloader.com - Butterflies - Skrillex.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    </div>
+    <h3>Características y especificaciones</h3>
+    <br><br>
+    <div class="container-p">
+    <div class="p1">
+        <p><strong>Música experimental</strong></p>
+        <p>La música experimental es una etiqueta amplia para sonidos y géneros que superan las convenciones tradicionales. Rompe con la estructura habitual de melodía, armonía y ritmo, utilizando la improvisación, el azar o técnicas de grabación inusuales.</p>
+    </div>
+    <div class="p2">
+        <p><strong>Musica Eletronica convencional</strong></p>
+        <p>La música electrónica se compone y ejecuta utilizando tecnología como sintetizadores, cajas de ritmos y computadoras. Sus rasgos principales incluyen un ritmo constante y repetitivo (conocido como four-on-the-floor o 4/4), una estructura de crescendos y caídas diseñada para crear tensión (build-ups y drops), y un enfoque central en el diseño de sonido y la producción.</p>
+    </div>
+    </div>
+</body>
+</html>
